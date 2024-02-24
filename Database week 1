@@ -1,0 +1,35 @@
+Database: A database is a structured collection of data organized and stored electronically in a computer system. It typically consists of tables, queries, reports, and other elements used to manage and manipulate data.
+
+Table: In a database, a table is a collection of related data organized into rows and columns. Each row represents a record, and each column represents a field or attribute.
+
+Record: A record, also known as a row or tuple, is a single instance of data stored in a table. It contains a set of related fields that represent the attributes or characteristics of a particular entity.
+
+Field: A field, also known as a column or attribute, is a single piece of data stored in a table. It represents a specific characteristic or property of the entities represented by the records in the table.
+
+Primary Key: A primary key is a unique identifier for each record in a table. It ensures that each record can be uniquely identified and distinguishes it from other records in the table.
+
+SQL (Structured Query Language): SQL is a standardized programming language used for managing and manipulating relational databases. It allows users to perform tasks such as querying data, updating records, and defining database structures.
+
+Query: A query is a request for information from a database. It is written in SQL and specifies the criteria for retrieving specific data from one or more tables.
+
+Index: An index is a data structure used to improve the speed and efficiency of data retrieval in a database. It consists of keys generated from one or more fields in a table, along with pointers to the corresponding records.
+
+Normalization: Normalization is a process used in database design to organize data efficiently and eliminate redundancy and dependency. It involves breaking down a database into smaller, more manageable tables and defining relationships between them to reduce data duplication and improve data integrity.
+
+Database Management System (DBMS): A DBMS is software that provides an interface for users to interact with the database. It facilitates the creation, manipulation, and maintenance of databases, managing tasks such as data storage, retrieval, security, and transaction management.
+
+2. Section B: Discussions:
+
+2.1.1. Purpose of a Primary Key:
+
+The primary key in a database table serves two main purposes: uniquely identifying records and enforcing referential integrity. For example, in a table storing employee information, the employee ID could serve as the primary key, ensuring each employee's record is unique and maintaining consistency in relationships between tables.
+2.1.2. Difference between DBMS and Database:
+
+The database is a structured collection of data, while the DBMS is software used to manage, manipulate, and interact with the database. The database is a passive entity, while the DBMS provides an active interface for users to perform operations on the data.
+2.1.3. Importance of Normalization:
+
+Normalization is important in database design as it improves data integrity, reduces redundancy, and ensures efficient storage and retrieval of data. For example, by breaking down a database into smaller, normalized tables and establishing clear relationships between them, normalization helps prevent anomalies such as data duplication and inconsistency, leading to a more reliable and maintainable database schema.
+
+
+
+
